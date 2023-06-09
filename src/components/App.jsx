@@ -4,8 +4,6 @@ import Notification from './Notification/Notification';
 import Section from './Section/Section';
 import Statistics from './Statistics/Statistics';
 
-const { Component } = require('react');
-
 const App = () => {
   const [state, setState] = useState({
     good: 0,
